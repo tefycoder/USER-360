@@ -1,180 +1,279 @@
 *{
     outline:  1px solid crimson;
 }
-.back{
-	background-image: url(../image/large.jpg);
-	-webkit-filter: brightness(70%);
-	opacity:.8;
-	height: 729px;
-	width: 100%;
+/* HEADER NAV */
+
+header {
+	background: transparent;
+}
+
+.logo {
+	width: 70%;
+	background: rgba(78, 78, 78, 0.10);
+}
+
+
+/* HERO */
+
+.bg-hero {
+	background-image: url("../image/large.jpg");
+	height: 660px;
+	background-repeat: no-repeat;
 	background-size: cover;
 }
 
-.titulo{
-	width: 40%;
+.coloracion {
+	background: rgba(38, 38, 38, 0.50);
+	height: 660px;
+	position: relative;
 }
-li{
-	color:white;
-	display: inline-block;
-	padding:0px 0px 0px 140px;
-}
-.h{
-	color:#08298A;
-	font-size: 44px;
-	text-align: center;
-	margin-top: 10%;
-}
-.azul{
-	width: 100%;
-	height: auto;
-	background-color:#2E64FE; 
-	opacity: .7;
-	margin-top: 17%;
-}
-.parrafoblue{
-	color:white;
-	margin: 5% 20%;
-}
-.boton{
-	width: 40%;
-	height: 30%;
-	border: solid 2px white; 
-	background-color:#58ACFA;
-	color: white;
-	margin: 5% 20%;
-	padding-left: 10%;
-}
-/*termina header*/
-.circulo{
-	width: 50%;
-	border-radius:60%;
-	height: 130px;
-	border:3px solid #F2F2F2;
-	opacity: .8;
-	text-align: center;
-	margin-top: 30%;
-	margin-left: 25%;
-	padding-top: 8%;
 
+.flexbox {
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
-.parrafocirculo{
-	color:#08298A;
-	margin: 7% 0%;
-	text-align: center;	
-}
-.subtitulo{
-	color: #81DAF5;
-	text-align: center;
-	margin-top: 10%;
-}
-.flechabajo{
-	margin: 10% 46%;
-}
-.parrafouser{
-	color:#81DAF5;
-	font-size: 24px;
-}
-.user{
-	width: 60%;
-	margin-bottom: 3%;
-	margin-left: 2%;
-}
-.parrafocom{
-	color:blue;
-}
-.flecha{
-	margin:5% 40%;
-}
-.img1{
-	width: 100%;
-	height: 600px;
-}
-.circuloimg{
-	margin-top: -35%;
-	margin-left: 99%;
-	border-radius:#81DAF5 2px solid;
-}
-.imgflecha{
-	margin-top: 400px;
-	margin-left: 530px;
-}
-.tamanoimg{
-	width: 200%;
-}
-.lista{
-	margin-top: 2%;
-	color:black;
-}
-.subprin{
-	color:#81DAF5;
-}
-.parrafouser1{
-	margin-top: 25%;
-	color:#81DAF5;
-	font-size: 24px;
-}
-.imghombre{
-	width: 100%;
-	height: 450px;
-	margin-top: 30%;
-}
-.rectanguloazul{
-	width: 100%;
-	height: auto;
-	background-color:#2E64FE; 
-} 
-/*termina section*/
-/*comienza footer*/
-footer{
-	background-color:#0B0B61;
-}
-.pie{
-	margin-top: 5%;
+
+.text-hero {
 	color: white;
+	font-size: 40px;
+	width: 70%;
 }
-.pie1{
-	margin-top: 5%;
-	margin-left: 2%;
-	color:white;
-}
-.pie2{
-	color:blue;
-	margin-top: 2%;
-}
-.copy{
-	margin-top: 1%;
-	color:white;
-}
-.piediv{
-	margin-left: 60%;
-	margin-top: 3%;
-}
-/*comienza contact headert*/
-.back-2{
-	background-image: url(../image/large.jpg);
-	-webkit-filter: brightness(70%);
-	opacity:.8;
-	height: 729px;
-	width: 100%;
-	background-size: cover;
+
+
+/* PRUEBA GRATUITA */
+
+.bg-blue {
 	position: absolute;
+	bottom: 0;
+	width: 100%;
+	background-color: rgba(78, 126, 184, 0.9);
+	height: 24%;
+	padding: 1em;
+}
+
+.btn-default {
+	background-color: transparent !important;
+	padding: 2px;
+	color: white !important;
+	margin-top: 20px;
+}
+
+.btn {
+	background-color: transparent !important;
+	font-size: 20px !important;
+	border: solid white 1px !important;
 }
 
 
-form{
-	border: white 1px solid !important;
+/*SECCION DE SERVICIOS*/
+
+.circulo-sombra {
+	padding: 70px;
+	position: relative;
+	border-radius: 100%;
+	width: 200px;
+	height: 200px;
+	margin: auto;
+	-webkit-box-shadow: -8px 16px 41px 0px rgba(204, 204, 204, 1);
+	-moz-box-shadow: -8px 16px 41px 0px rgba(204, 204, 204, 1);
+	box-shadow: -8px 16px 41px 0px rgba(204, 204, 204, 1);
+}
+
+.circulo-sombra a {
+	font-size: 3em;
+	color: #68AAFF;
+}
+
+.circulo-sombra:hover {
+	background-color: #F5F5F5;
+}
+
+.servicios {
+	width: 80%;
+	text-align: center;
+	padding-bottom: 7%;
+}
+
+.servicios h2 {
+	padding: 8% 0%;
+	font-size: 2.5em;
+}
+
+.servicios h3 {
+	padding: 3% 0%;
+	color: #23639C;
+	;
+}
+
+.servicios p {
+	margin-bottom: 15%;
+	font-size: 1.1em;
+	text-align: center;
+	white-space: normal;
+}
+
+.separacion {
+	border-top: 1px solid #cccccc;
+	width: 100%;
+	text-align: center;
+}
+
+.separacion img {
+	position: relative;
+	top: -54px;
+	text-align: center;
+}
+
+
+/*POR QUE USAR USER 360*/
+
+.inline {
+	display: inline-block;
+}
+
+.logo2 {
+	width: 70%;
+}
+
+
+/* SECCION LO QUIERO */
+
+.bg-loquiero {
+	background-image: url(../image/sec-2.jpg);
+	background-size: cover;
+	height: 600px;
+	width: auto;
+	-webkit-filter: brightness(50%);
+	-moz-filter: brightness(50%);
+	filter: brightness(50%);
+	z-index: -1;
+}
+
+.icon-sp {
+	font-size: 44px;
+	color: white;
+}
+
+.icono-glass {
+	margin: -36px -60px 0px !important;
+}
+
+.contenedor-icon {
+	width: 70px;
+	height: 70px;
+	background-color: #50BDEA;
+	border-radius: 100%;
+	padding: 10px 12px;
+	margin: 24px -60px 0px;
+	display: block;
+}
+
+.sin-padding {
+	padding: 0px !important;
+	margin: 0px !important;
+}
+
+.separador-2 {
+	margin-left: 47%;
+	margin-top: -70px;
+	z-index: +15;
+	position: relative;
+}
+
+.img-porque {
+	width: 100%;
+}
+
+.bg-blue2 {
+	background-color: rgba(53, 125, 167, 0.8);
+	height: 24%;
+	width: 100%;
+	padding: 1em;
+}
+
+
+/* FOOTER */
+
+footer {
+	background-color: #2A3541;
+	color: white;
+	padding: 2% 5%;
+	font-size: 1.1em;
+}
+
+footer i {
+	font-size: 2.5em;
+	position: RELATIVE;
+	margin: 0% 0% 0% 5%;
+	;
+	color: #8484BB;
+}
+
+.redes {
+	display: inline-block;
+	text-align: right;
+}
+
+.redes p {
+	margin-top: 7%;
+}
+
+.datos {
+	display: inline-block;
+	text-align: left;
+}
+
+
+/* CONTACTO */
+
+.w-60 {
 	width: 600px;
-	height: auto;
-	padding: 20px 30px;
-	margin: 20% 25%;
-	border-radius: 10px;
 }
-.btn{
-	background-color:#0080FF; 
-	margin-left: 30px;
-	margin-bottom: 20px;
+
+#formulario {
+	font-size: 15px;
+	background-color: white;
+	color: black;
+	border-top: 5px solid #709FD7;
 }
-.report{
-	margin:2% 40%;
+
+#formulario {
+	padding: 1em;
 }
-   
+
+#formulario * {
+	padding-bottom: 5px;
+}
+
+#formulario span {
+	color: red;
+	margin-right: 10px;
+}
+
+#formulario input {
+	height: 25px;
+	width: 70%;
+	margin-right: 20px;
+}
+
+#formulario textarea {
+	height: 60px;
+	width: 70%;
+	margin-right: 6%;
+	resize: none;
+}
+
+#formulario button {
+	color: white;
+	background-color: #74A3DB;
+	border: none;
+	padding: 10px 15px;
+	margin-right: 7em;
+}
+
+#formulario a {
+	display: inline-block;
+	height: 20px;
+	margin-right: 15px;
+}
